@@ -659,7 +659,7 @@ double DexedAudioProcessor::getTailLengthSeconds() const {
 }
 
 const String DexedAudioProcessor::getName() const {
-    return JucePlugin_Name;
+    return "dexed"; // JucePlugin_Name;
 }
 
 //==============================================================================

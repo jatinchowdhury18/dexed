@@ -7,7 +7,7 @@
               pluginCode="Dexd" pluginChannelConfigs="{0, 2}" pluginIsSynth="1"
               pluginWantsMidiIn="1" pluginProducesMidiOut="1" pluginSilenceInIsSilenceOut="0"
               pluginEditorRequiresKeys="0" pluginAUExportPrefix="DexedAU" pluginRTASCategory=""
-              aaxIdentifier="com.yourcompany.Dexed" pluginAAXCategory="2" jucerVersion="5.4.5"
+              aaxIdentifier="com.yourcompany.Dexed" pluginAAXCategory="2" jucerVersion="5.4.4"
               companyName="Digital Suburban" buildVST3="1" buildRTAS="0" buildAAX="0"
               pluginManufacturerEmail="support@yourcompany.com" buildAUv3="0"
               pluginIsMidiEffectPlugin="0" displaySplashScreen="0" reportAppUsage="0"
@@ -162,8 +162,8 @@
         <MODULEPATH id="juce_audio_basics" path="../JUCE-5.2.1/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
-    <VS2017 targetFolder="Builds/VisualStudio2017" windowsTargetPlatformVersion="10.0.16299.0"
-            IPPLibrary="Parallel_Static" bigIcon="SpSpb4" smallIcon="SpSpb4">
+    <VS2017 targetFolder="Builds/VisualStudio2017" IPPLibrary="Parallel_Static"
+            bigIcon="SpSpb4" smallIcon="SpSpb4">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" winWarningLevel="3" generateManifest="1" winArchitecture="x64"
                        debugInformationFormat="ProgramDatabase" enablePluginBinaryCopyStep="0"
@@ -214,5 +214,6 @@
   <LIVE_SETTINGS>
     <OSX/>
     <LINUX/>
+    <WINDOWS/>
   </LIVE_SETTINGS>
 </JUCERPROJECT>
